@@ -1,4 +1,11 @@
 body {
   outline: red solid 2px;
   text-align: center;
+  margin: 5%;
+}
+
+#referance_table {
+  outline: red solid 2px;
+  margin: 5% 5%;
+  display: inline-block;
 }
