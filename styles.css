@@ -1,11 +1,50 @@
 body {
-  outline: red solid 2px;
   text-align: center;
   margin: 5%;
+  display: block;
+  font-family: "Nunito_200";
+}
+
+.title {
+  font-family: "Nunito";
+  font-size: 30px;
+  line-height: 5rem;
+  display: block;
+  align-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 3px #575757;
+  border-radius: 39px;
+  background: #ffffff;
+  box-shadow: inset 9px 9px 37px #e3e3e3, inset -9px -9px 37px #ffffff;
+}
+
+p {
+  padding-bottom: 6%;
+  border-bottom: rgba(36, 36, 36, 0.678) solid 1.5px;
 }
 
 #referance_table {
-  outline: red solid 2px;
+  font-family: "Nunito_200";
+  font-size: 25px;
+  outline: #2b2b2b solid 1px;
   margin: 5% 5%;
   display: inline-block;
+  color: white;
+  text-shadow: 1px 1px 2px #575757;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    40deg,
+    rgba(73, 91, 116, 0.849) 95%,
+    rgba(204, 154, 228, 0.877) 20%
+  );
+  box-shadow: 0px 4px 6px rgba(37, 37, 37, 0.678);
+}
+
+.table_head {
+  font-family: "Nunito";
+  font-weight: 700;
+}
+
+.row_data {
+  outline: #2b2b2b solid 2px;
 }
